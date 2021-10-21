@@ -19,6 +19,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="ORDERBY.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>C:\Users\KEVIN ULQUIANGO\Documents\Cursos_Kevin\Curso_SQL\CursoSql\GestionTienda\ORDERBY.sql</FullPath>
+        </FileNode>
         <FileNode Name="Select.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>

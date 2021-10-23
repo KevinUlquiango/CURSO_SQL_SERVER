@@ -19,17 +19,41 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="FiltradoDeFechas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FiltradoDeFechas.sql</FullPath>
+        </FileNode>
         <FileNode Name="ORDERBY.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>C:\Users\KEVIN ULQUIANGO\Documents\Cursos_Kevin\Curso_SQL\CursoSql\GestionTienda\ORDERBY.sql</FullPath>
+          <FullPath>ORDERBY.sql</FullPath>
         </FileNode>
         <FileNode Name="Select.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Where.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Where.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WhereParte2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WhereParte2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WhereParte3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WhereParte3.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

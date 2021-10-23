@@ -31,6 +31,12 @@
           <AssociatedConnUserName />
           <FullPath>GroupBy.sql</FullPath>
         </FileNode>
+        <FileNode Name="having.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>having.sql</FullPath>
+        </FileNode>
         <FileNode Name="Operaciones Aritmeticas.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>

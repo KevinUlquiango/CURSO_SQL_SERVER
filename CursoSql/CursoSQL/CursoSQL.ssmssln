@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CrearTienda", "CrearTienda\CrearTienda.ssmssqlproj", "{EAE9F27B-202B-4772-B902-8F3E38F85AAC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "GestionTiendaSQL", "GestionTiendaSQL\GestionTiendaSQL.ssmssqlproj", "{1AF19EAB-744D-4A54-AFE8-84FFFA730BC6}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TrabajoTienda", "TrabajoTienda\TrabajoTienda.ssmssqlproj", "{13F365A2-C2E0-404C-9615-683373644B69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAE9F27B-202B-4772-B902-8F3E38F85AAC}.Default|Default.ActiveCfg = Default
+		{1AF19EAB-744D-4A54-AFE8-84FFFA730BC6}.Default|Default.ActiveCfg = Default
+		{13F365A2-C2E0-404C-9615-683373644B69}.Default|Default.ActiveCfg = Default
+		{8185A888-7C9F-4CC7-BD72-B1483044354C}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38CE6420-81CD-47F7-B1ED-EB7EAE06D602}
+	EndGlobalSection
+EndGlobal

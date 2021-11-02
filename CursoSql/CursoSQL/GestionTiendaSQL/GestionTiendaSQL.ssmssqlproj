@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GestionTiendaSQL">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="LAPTOP-L9LT9NOH:LAPTOP-L9LT9NOH\KEVIN ULQUIANGO">
+          <Created>2021-11-01T21:20:38.9120186-05:00</Created>
+          <Type>SQL</Type>
+          <Server>LAPTOP-L9LT9NOH</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>Facturas</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Cast_Convert.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Cast_Convert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ejercicio 2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ejercicio 2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ejercicio1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ejercicio1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FiltradoDeFechas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FiltradoDeFechas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GroupBy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>GroupBy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Having.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Having.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Operaciones Aritmeticas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Operaciones Aritmeticas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ORDERBY.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ORDERBY.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Select.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Where.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Where.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WhereParte2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WhereParte2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WhereParte3.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WhereParte3.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

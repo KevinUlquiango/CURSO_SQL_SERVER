@@ -54,23 +54,42 @@ select TRIM('    GOT SL     ') CortaEspaciosTOTAL
 
 select PATINDEX('%TB%','Discos 550GB, Discos 1TB, Discos 2TB') BuscaPRIMERPatron
 
+/*
+	Procesador AMD: frase original donde buscara el parametro a remplazar
+	AMD: la palabra que busca
+	Intel: Palabra por la que se remplazara AMD
+*/
 select REPLACE('Procesador AMD','AMD','Intel') Reemplazo
 select REPLICATE('Papel Impresora',3) Replicar
 select REVERSE('samsung')
+/*
+	Colocar espacios
+	1) como no hacer lo
+	2) como debemos hacer lo
+*/
+/*1)*/select '-----        -----' "UFF!"
+/*2)*/select '-----'+SPACE(8)+'-----' "MEJOR!"
 
-select '-----        -----' "UFF!"
-select '-----'+SPACE(8)+'-----' "MEJOR!"
 
-SELECT STR(112.37, 6, 1)
+--Redondeo
+/*El 5 es la cantidad de numeros que se mostrara en el resultado incluido el punto
+en este caso solo admite de volver 112.4 ya que esta en 5 si fuera 3 solo de volveria 112*/
+SELECT STR(112.36, 5, 1) as redondeo
 
-SELECT STRING_AGG (CONVERT(nvarchar(max),Nombre), ',') AS csv 
+/*el max aqui es el valor asignado como quien diria a un ej:varchar(25)*/
+SELECT STRING_AGG (CONVERT(nvarchar(max),Nombre), '|') AS csv 
 FROM Producto
 
-declare @Productos NVARCHAR(400) = 'microfono,cascos,smartphone,notebook,memoria usb'   
+/*realiza una consulta, en lugar de retornar lo en una sola linea la retorna en varias filas
+dependiendo del numero de datos retornados por la consulta*/
+declare @Productos NVARCHAR(400) = 'microfono:cascos,smartphone,notebook,memoria usb'   
 select value from STRING_SPLIT(@Productos, ',')  SeparacionPorComas
 
-select STUFF('GOT SL',5,2,'SA') Cambio
+/*remplaza los valores indicados con la longitud del segundo parametro por el 
+valor del tercer parametro*/
+select STUFF('GOT SL',5,2,'Nuevo Valor') Cambio
 
 select @@VERSION Todo,SUBSTRING(@@VERSION,11,10) Extraido
 
+/*Remplaza los valores del segundo parametro por los valores del tercer parametro*/
 select TRANSLATE('Tarjeta Gráfica', 'aá', 'eé')

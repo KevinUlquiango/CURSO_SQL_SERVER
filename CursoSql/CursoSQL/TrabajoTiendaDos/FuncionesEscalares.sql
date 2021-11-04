@@ -1,4 +1,5 @@
-
+/*Video 56*/
+use Facturas
 /**** Funciones de configuración ****/
 select @@LANGUAGE Lenguaje, @@SERVERNAME Servidor, @@SERVICENAME Instancia, @@VERSION VersionGestor
 
@@ -12,21 +13,21 @@ select CURRENT_TIMESTAMP FechaHoraInstanciaEquipoBP,GETDATE() FechaHoraInstancia
 select DAY(SYSDATETIME()) Dia, MONTH(SYSDATETIME()) Mes, YEAR(SYSDATETIME()) Año
 
 ---- Funciones de operaciones de fecha-hora -----
-select DATEDIFF(day,'01/01/2020','29/01/2020') DiferenciaEnDias
-select DATEDIFF(HOUR,'01/01/2020','02/01/2020') DiferenciaEnHoras
-select DATEDIFF(HOUR,'01/01/2020 12:00','02/01/2020') DiferenciaEnHoras
-select DATEDIFF(Month,'01/01/2020','01/03/2020') DiferenciaEnMeses
-select DATEDIFF(year,'01/01/2019','01/01/2020') DiferenciaEnAños
+select DATEDIFF(day,'2020-01-01','2020-01-29') DiferenciaEnDias
+select DATEDIFF(HOUR,'2020-01-01','2020-01-02') DiferenciaEnHoras
+select DATEDIFF(HOUR,'2020-01-01 12:00','2020-01-02') DiferenciaEnHoras
+select DATEDIFF(Month,'2020-01-01','2020-03-01') DiferenciaEnMeses
+select DATEDIFF(year,'2019-01-01','2020-01-01') DiferenciaEnAños
 
-select DATEADD(YEAR,1,'31/01/2020') AñadeUnAño
-select DATEADD(MONTH,1,'31/01/2020') AñadeUnMes  --<-- Ultimo día del mes siguiente
-select DATEADD(HOUR,1,'31/01/2020 8:45') AñadeUnaHora
-select DATEADD(HOUR,-1,'31/01/2020 8:45') RestaUnaHora
+select DATEADD(YEAR,1,'2020-01-31') AñadeUnAño
+select DATEADD(MONTH,1,'2020-01-31') AñadeUnMes  --<-- Ultimo día del mes siguiente
+select DATEADD(HOUR,1,'2020-01-31 8:45') AñadeUnaHora
+select DATEADD(HOUR,-1,'2020-01-31 8:45') RestaUnaHora
 
-select CONVERT(varchar,DATEADD(YEAR,1,'31/01/2020'),103)
+select CONVERT(varchar,DATEADD(YEAR,1,'2020-01-31'),103) anidaFunciones
 
-select ISDATE('01/01/2020')
-select ISDATE('01/13/2020')
+select ISDATE('2020-01-01') verificaLaFechaCorrectoIgualUno
+select ISDATE('2020-13-13') verificaLaFechaCorrectoIgualCero
 
 /**** Funciones matemáticas ****/
 
@@ -36,10 +37,11 @@ select PI(),ABS(-4),SQRT(144),sin(45),cos(45),tan(45) --<-- etc etc
 /**** Funciones cadena de caracteres ****/
 
 select CHARINDEX('Duro','Disco Duro') BuscaDesdePrincipio
-select CHARINDEX('Duro','Disco Duro',9) BuscaDesdePosicionInt
+/*Busca desde la posicion especificada*/
+select CHARINDEX('Duro','Disco Duro',8) BuscaDesdePosicionInt
 
 select CONCAT('Disco','SSD') Concatena
-select CONCAT_WS(' ','Disco','HDD') ConcatenaConSeparador
+select CONCAT_WS(' Separador ','Disco','HDD') ConcatenaConSeparador
 
 select LEFT('Fuente Alimentación',6) CortaporIZQ
 select RIGHT('Fuente Alimentación',6) CortaporDER

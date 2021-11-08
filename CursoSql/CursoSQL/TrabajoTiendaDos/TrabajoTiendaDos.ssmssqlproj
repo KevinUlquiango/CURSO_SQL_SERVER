@@ -37,6 +37,18 @@
           <AssociatedConnUserName />
           <FullPath>DISTINCT.sql</FullPath>
         </FileNode>
+        <FileNode Name="ejercicio 2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ejercicio 2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ejercicio de variables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ejercicio de variables.sql</FullPath>
+        </FileNode>
         <FileNode Name="FUNCIONES.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>

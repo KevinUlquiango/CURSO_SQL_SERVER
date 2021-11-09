@@ -49,6 +49,12 @@
           <AssociatedConnUserName />
           <FullPath>Ejercicio de variables.sql</FullPath>
         </FileNode>
+        <FileNode Name="Ejercicio3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ejercicio3.sql</FullPath>
+        </FileNode>
         <FileNode Name="FUNCIONES.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
@@ -66,6 +72,18 @@
           <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>INTO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="R64+RE3+Insercion+de+ventas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>R64+RE3+Insercion+de+ventas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-L9LT9NOH</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
         <FileNode Name="Tipo de dato Table.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-L9LT9NOH:True</AssociatedConnectionMoniker>

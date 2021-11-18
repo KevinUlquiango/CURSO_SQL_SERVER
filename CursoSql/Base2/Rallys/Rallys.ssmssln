@@ -7,14 +7,17 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EstructuraBDD", "Estructura
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Rallys", "Rallys\Rallys.ssmssqlproj", "{FD2C1C3F-597A-41B7-BD2B-57DBB52D3041}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "FuncionesAndProcedimientos", "FuncionesAndProcedimientos\FuncionesAndProcedimientos.ssmssqlproj", "{BDB717BE-CDD2-4752-9471-DD7F724CBE3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DD11B1DF-8436-4D99-9355-75372CFAA492}.Default|Default.ActiveCfg = Default
-		{7D82698C-4480-4C59-97D8-648E3C30C8E6}.Default|Default.ActiveCfg = Default
 		{FD2C1C3F-597A-41B7-BD2B-57DBB52D3041}.Default|Default.ActiveCfg = Default
+		{2399C843-09BF-48E1-BB55-155183031BC0}.Default|Default.ActiveCfg = Default
+		{BDB717BE-CDD2-4752-9471-DD7F724CBE3C}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

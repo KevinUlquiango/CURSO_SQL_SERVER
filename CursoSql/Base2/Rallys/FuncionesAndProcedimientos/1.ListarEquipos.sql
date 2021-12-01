@@ -35,4 +35,4 @@ GO
 EXECUTE sp_listar_equipos
 	@w_equipo = 0
 
-
+	 

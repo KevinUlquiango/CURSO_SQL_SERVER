@@ -15,6 +15,7 @@ AS RETURN
 	select	Equipo,
 			Piloto,
 			paisPiloto,
+			Copiloto,
 			paisCopiloto,
 			Vehiculo
 	from vw_equipo	
@@ -25,3 +26,4 @@ AS RETURN
 )
 GO
 select * from ListarEquipos(0)
+
